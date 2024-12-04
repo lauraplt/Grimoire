@@ -11,7 +11,7 @@ const app = express(); // Declare app before using it
 
 const cors = require('cors');
 app.use(cors({
-    origin: 'http://localhost:3000', // ou l'URL de ton frontend
+    origin: 'http://localhost:3000',
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     credentials: true
 }));
